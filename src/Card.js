@@ -9,7 +9,8 @@ export default function Card(){
         <div className="card">
             <img src={img} alt="pic" width="400" height="410"/>
             <div className="year">
-            <p>Fri 27 Nov 2016 <br/>
+            <p>New York <br/> <br/>
+                Fri 27 Nov 2016 <br/>
                 Praesent tincideunt sed tellus ur reesss </p>
                 <button> Buy Tickets </button>
             </div>
@@ -20,7 +21,8 @@ export default function Card(){
         <div className="card">
             <img src={imgp} alt="pic" width="400" height="410"/>
             <div className="year">
-            <p>Fri 20 Nov 2018 <br/>
+            <p>Paris <br/> <br/>
+                Thu 20 Nov 2018 <br/>
                 Praesent tincideunt sed tellus ur reesss </p>
                 <button> Buy Tickets </button>
             </div>
@@ -31,7 +33,9 @@ export default function Card(){
         <div className="card">
             <img src={imgs} alt="pic" width="400" height="410"/>
             <div className="year">
-            <p>Fri 10 Nov 2016 <br/>
+            
+            <p>San Francisco <br/> <br/>
+                Fri 10 Nov 2016 <br/>
                 Praesent tincideunt sed tellus ur reesss </p>
                 <button> Buy Tickets </button>
             </div>
