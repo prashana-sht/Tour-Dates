@@ -4,9 +4,9 @@
 }
 
 .dates{
-  margin-top: 45px;
-  background-color: whitesmoke;
-  padding: 13px;
+  margin-top: 10px;
+  background-color: white;
+  padding: 10px;
 }
 
 .dates b{
@@ -19,16 +19,27 @@
   background-color: black;
   box-sizing: border-box;
 }
+h3{
+  background-color: white;
+}
 
+li{
+  color: white;
+}
 .column {
-  float: left;
+  display: flex;
+  justify-content: space-between;
   width: 30%;
   padding: 0 10px;
 }
 
+.parent{
+  display: flex;
+  flex-direction: row;
+}
 .row {
   margin: 0 -4px;
-  margin-left: 70px;
+  margin-left: 60px;
 }
 
 .row:after {
@@ -37,21 +48,22 @@
   clear: both;
 }
 .card{
-  box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.2);
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: white;
 }
 
-.year p{
+.year {
   color: black;
   background-color: white;
   margin-left: 20px;
+  padding-left: 10px;
 }
+
 button {
   color: white;
   background-color: black;
   padding: 10px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .year{
   background-color: white;
